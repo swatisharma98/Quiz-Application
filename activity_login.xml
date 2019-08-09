@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dp"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+
+    <EditText
+        android:layout_marginTop="45dp"
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColorHint="#27399C"
+        android:inputType="textPersonName"
+        android:hint="enter userid" />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#27399C"
+        android:ems="10"
+        android:hint="enter password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/button"
+        android:background="#27399C"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/button2"
+        android:background="#27399C"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registration" />
+
+    <TextView
+        android:textColor="#000000"
+        android:textStyle="italic|bold"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="end"
+        android:id="@+id/textView3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Click here for admin" />
+
+
+
+</LinearLayout>
